@@ -1,0 +1,33 @@
+{
+  "name": "chord-prog-analyzer",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist && webpack && cp src/index.html dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanikawa04/chord-prog-analyzer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tanikawa04/chord-prog-analyzer/issues"
+  },
+  "homepage": "https://github.com/tanikawa04/chord-prog-analyzer#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "css-loader": "^0.28.7",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "vue": "^2.4.3",
+    "vue-loader": "^13.0.4",
+    "vue-template-compiler": "^2.4.3",
+    "webpack": "^3.5.6"
+  }
+}
